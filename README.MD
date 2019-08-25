@@ -11,6 +11,22 @@
     - signup ```http://localhost:3000/api/auth/signup```.
     - login ```http://localhost:3000/api/auth/login```.
     - Verify account ```http://localhost:3000/api/auth/verify-account```.
+    - Create a location ```http://localhost:3001/api/location``` >> Change the method to `Post` in Postman
+    - Get all location ```http://localhost:3001/api/location```
+    - Get one location ```http://localhost:3001/api/location/locationName```>> Change the method to `Get` in Postman
+    - Delete location ```http://localhost:3001/api/location``` >> Change the method to `Delete` in Postman
+
+The Payload for creating a location is:
+
+    ```
+        {
+            "locationName": "LocationName",
+            "femalePopulation": 1000,
+            "malePopulation": 100,
+            "under18Population": 20,
+            "over18Population": 400
+        }
+    ```
 
 NOTE: Once you signup, you will receive a validation email that will open the browser once clicked  and validate the account.
 - Check email in your spam folder if you don't receive it.
