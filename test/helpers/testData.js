@@ -14,5 +14,12 @@ export default {
     generateToken: function() {
         return jwt.sign(userCredentials.username, process.env.SECRET_KEY)
     },
-    fakeToken: "eyJhbGciOiJIUzI1NiIsInR5icCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdpbGJlcnRvU2lsdmVyIiwiZW1haWwiOiJnaWxiZXJ0Lm5nZXl3byswN0BhbmRlbGEuY29tIiwiaWF0IjoxNTYwNjc2MzAzLCJleHAiOjE1NjA3MDUxMDN9.3xx8xBvVpcCRWJilN2hlZ0luauAelhK_vKTF6jq0QME"
+    fakeToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1pY2hhZWxqIiwiaWQiOjUsImVtYWlsIjoiZ2lsYmVydC5uZ2V5d28rMTJAYW5kZWxhLmNvbSIsImlhdCI6MTU2Njc2Nzc0MiwiZXhwIjoxNTY2Nzk2NTQyfQ.xTHacCp2womf255-FI_PvYI24XJiCLKY4bLH1yTLPYg",
+    locationCredentials: {
+        "locationName": "Lagos",
+        "femalePopulation": 13333,
+        "malePopulation": 1202,
+        "under18Population": 200,
+        "over18Population": 400
+    }
 }
