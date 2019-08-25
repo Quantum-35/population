@@ -1,7 +1,5 @@
 ## Welcome to indorse Challenge1 Backend.
 
-[![Build Status](https://travis-ci.com/Quantum-35/indorse-challenge1.svg?branch=develop)](https://travis-ci.com/Quantum-35/indorse-challenge1)
-[![Coverage Status](https://coveralls.io/repos/github/Quantum-35/indorse-challenge1/badge.svg?branch=develop)](https://coveralls.io/github/Quantum-35/indorse-challenge1?branch=develop)
 
 1. Clone this Repo and `cd` to api.
 2. Run `yarn install` to install all required dependencies.
